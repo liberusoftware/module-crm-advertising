@@ -1,1 +1,5 @@
-{"name":"liberusoftware/module-crm-advertising","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\Advertising\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\Advertising\\AdvertisingServiceProvider"]},"liberu":{"name":"crm-advertising"}}}
+{"name":"liberusoftware/module-crm-advertising","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\Advertising\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\Advertising\\AdvertisingServiceProvider"]},"liberu":{"name":"crm-advertising"}},
+    "require": {
+        "liberusoftware/module-organizations-teams": "^1.0"
+    }
+}
